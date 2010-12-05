@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'PlaySE' target in the 'PlaySE' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <AudioToolbox/AudioToolbox.h>
+#endif

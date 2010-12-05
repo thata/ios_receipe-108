@@ -1,4 +1,4 @@
-*.xcodeproj/*
-!*.xcodeproj/project.pbxproj
-/build
 .DS_Store
+build/
+*.pbxuser
+*.mode1v3

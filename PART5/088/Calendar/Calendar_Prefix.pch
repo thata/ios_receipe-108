@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'Calendar' target in the 'Calendar' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    // 以下の2行を追加
+    #import <QuartzCore/QuartzCore.h>
+    #import <MapKit/MapKit.h>
+#endif
